@@ -1,6 +1,6 @@
 {
-    "name": "time_calculator",
-    "short_name": "time_calculator",
+    "name": "demo_web",
+    "short_name": "demo_web",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
