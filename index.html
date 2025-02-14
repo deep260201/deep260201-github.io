@@ -15,7 +15,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="/deep260201-github.io/">
+  <base href="/viral110-github.io/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -24,13 +24,37 @@
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="demo_web">
+  <meta name="apple-mobile-web-app-title" content="flut_api">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCCulhqcI9pPbH4PM9FPDITMrXXyRS60t0",
+      authDomain: "api2flutter.firebaseapp.com",
+      projectId: "api2flutter",
+      storageBucket: "api2flutter.firebasestorage.app",
+      messagingSenderId: "967808972059",
+      appId: "1:967808972059:web:26ddcf0cd93f4eae4dcfbe",
+      measurementId: "G-3Y0QCELSQC"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png" />
 
-  <title>demo_web</title>
+  <title>flut_api</title>
   <link rel="manifest" href="manifest.json">
 </head>
 
